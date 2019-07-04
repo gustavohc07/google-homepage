@@ -7,22 +7,26 @@
     <link rel="shortcut icon" href="images/favicon.ico">
 </head>
 
-<body>
-    <nav>
-        <a href="http://www.gmail.com/">Gmail</p>
-            <a href="#">Images</a> <!-- will create another html for image google-->
-            <a href="#" class="apps-icon"><img src="images/googleappsicon.png" alt="Google Apps"></a>
-            <input type="submit" value="Sign In">
-    </nav>
+<body class="main-container">
+    <header>
+        <ul class="container">
+            <li><a href="http://www.gmail.com/">Gmail</a></li>
+            <li><a href="#">Images</a></li>
+            <li><a href="#"><img class="apps-icon" src="images/googleappsicon.png" height="25px" weight="25px"></a></li>
+            <li><input class="sign-in" type="submit" value="Sign In"></li>
+        </ul>
+    </header>
 
-    <section>
+    <section class="search">
         <img src="images/googlelogo.png" alt="Google logo"><br>
-        <input type="text" name="search"><br>
-        <input type="submit" value="Search Google">
-        <input type="submit" value="I'm Feeling Lucky">
+        <form>
+            <input class="searchbar" type="text" name="search"><br>
+            <input class="search-btn" type="submit" value="Search Google">
+            <input class="lky-btn" type="submit" value="I'm Feeling Lucky">
+        </form>
     </section>
 
-    <footer>
+    <footer class="footer">
         <div>
             <p>Brazil<p>
         </div>
@@ -40,6 +44,9 @@
             </div>
         </nav>
     </footer>
+
 </body>
 
 </html>
+
+<!-- <img src="images/googleappsicon.png" class="apps-icon" alt="Google Apps"> --> <input class="sign-in" t
