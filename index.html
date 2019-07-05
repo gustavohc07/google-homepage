@@ -7,9 +7,9 @@
     <link rel="shortcut icon" href="images/favicon.ico">
 </head>
 
-<body class="main-container">
+<body>
     <header>
-        <ul class="container">
+        <ul class="header">
             <li><a href="http://www.gmail.com/">Gmail</a></li>
             <li><a href="#">Images</a></li>
             <li><a href="#"><img class="apps-icon" src="images/googleappsicon.png" height="25px" weight="25px"></a></li>
@@ -18,11 +18,19 @@
     </header>
 
     <section class="search">
-        <img src="images/googlelogo.png" alt="Google logo"><br>
+        <img class="logo" src="images/googlelogo.png" alt="Google logo"><br>
         <form>
-            <input class="searchbar" type="text" name="search"><br>
-            <input class="search-btn" type="submit" value="Search Google">
-            <input class="lky-btn" type="submit" value="I'm Feeling Lucky">
+            <div>
+                <input class="searchbar" type="text" name="search"><br>
+                <div>
+                    <a href="#"><img class="mic" src="images/google_mic.svg.png" alt="Mic icon" weight="20px"
+                            height="20px"></a>
+                </div>
+            </div>
+            <div class="btns">
+                <input class="search-btn" type="submit" value="Google Search">
+                <input class="lky-btn" type="submit" value="I'm Feeling Lucky">
+            </div>
         </form>
     </section>
 
@@ -48,5 +56,3 @@
 </body>
 
 </html>
-
-<!-- <img src="images/googleappsicon.png" class="apps-icon" alt="Google Apps"> --> <input class="sign-in" t
