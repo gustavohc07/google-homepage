@@ -33,7 +33,7 @@ Notes during project:
 
 /* Why does't work just .header? Why I need more specificity to work it throught?
 Got it. Setting the header's class as container and container as a flexbox, all the items inside
-it is an item for the flexbox. Therefore, <ul> acts as a hole item. */
+it is an item for the flexbox. Therefore, `<ul>` acts as a whole item. */
 
 /* .header ul {
     width: 100%;
